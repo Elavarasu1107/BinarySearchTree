@@ -6,7 +6,7 @@ namespace BinarySearchTree
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter 1 for Creating BTS\n 2 for Size Method BTS\n 3 for Searching BTS");
+            Console.WriteLine("Enter 1 for Creating BST\n 2 for Size Method BST\n 3 for Searching BST");
             Console.WriteLine("Enter a Number:");
             int userInput = Convert.ToInt32(Console.ReadLine());
             BinarySearchTree<int> binarySearch = new BinarySearchTree<int>(56);
