@@ -37,7 +37,6 @@ namespace BinarySearchTree
                     this.RightTree.Insert(element);
             }
         }
-
         public void Display()
         {
             if (this.LeftTree != null)
@@ -51,6 +50,10 @@ namespace BinarySearchTree
                 this.rightCount++;
                 this.RightTree.Display();
             }
+        }
+        public void GetSize()
+        {
+            Console.WriteLine("Size: "+ (1 + this.leftCount + this.rightCount));
         }
     }
 }
